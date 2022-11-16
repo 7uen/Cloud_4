@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "ipConfigurations": [
+      {
+        "name": "test_3",
+        "properties": {
+          "publicIPAddress": {
+            "id": "/subscriptions/57258ec5-9436-4d6f-9f10-cab56ed01a8f/resourceGroups/CC_group_3/providers/Microsoft.Network/publicIPAddresses/test_3"
+          },
+          "subnet": {
+            "id": "/subscriptions/57258ec5-9436-4d6f-9f10-cab56ed01a8f/resourceGroups/CC_group_3/providers/Microsoft.Network/virtualNetworks/CC_group_3-vnet/subnets/default"
+          }
+        }
+      }
+    ]
+  },
+  "location": "uksouth"
+}

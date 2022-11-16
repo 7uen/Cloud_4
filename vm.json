@@ -1,0 +1,47 @@
+{
+  "id": "/subscriptions/57258ec5-9436-4d6f-9f10-cab56ed01a8f/resourceGroups/CC_group_3/providers/Microsoft.Compute/virtualMachines/myVMwithpython",
+  "type": "Microsoft.Compute/virtualMachines",
+  "properties": {
+    "osProfile": {
+      "adminUsername": "azureuser",
+      "secrets": [],
+      "computerName": "myVMwithpython",
+      "linuxConfiguration": {
+        "ssh": {
+          "publicKeys": [
+            {
+              "path": "/home/azureuser/.ssh/authorized_keys",
+              "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCliXdrsz9dWu3oOOOOsSoLrX2g1sJKn3hHY9eTHU7NdG64HIJsFdm+iDtH5fIqqQzJ5T/pWLs+8vwwFFzAlAv4K7MwE+1tiTCe10w4S1u4fB15oJxSvnsEp+qBpEOfSxl5d2VoMKmaYyTqmMSTkbjyoXUE1U1xmcAjzzWldYvpN26bC8YWzw2y8nYl5vpaeqdceRh/Xv5AzS5RFXKmducvscjZ118f6OD4I7RJDS+4CJH1cMWwApViWrim5GNXZORNKcaHsjae76zwz39v6ABqyuJ7x+T6fouuKpUanhFNPxvcf41PWJgCITxzJmA7pAu/7jspltGeHKjv6jq4LNwRHV5eIacRA33TPMa1IRZ+keEPQ1tBnPZuE2RB3dl1DoLxGUyZqdHawFhzKUtFuWJDUNnoGjAU3q0Np5xTfFMTPAiXh5hKwPXnN79V2f9qLuACSLyCQukWTnPYTLIbIP9BnV1i1KytSTJ6VY3F2IxkF6xucJrSWnvFlMFPkyyc3as= azureuser@CC "
+            }
+          ]
+        },
+        "disablePasswordAuthentication": true
+      }
+    },
+    "networkProfile": {
+      "networkInterfaces": [
+        {
+          "id": "/subscriptions/57258ec5-9436-4d6f-9f10-cab56ed01a8f/resourceGroups/CC_group_3/providers/Microsoft.Network/networkInterfaces/test_3",
+          "properties": {
+            "primary": true
+          }
+        }
+      ]
+    },
+    "storageProfile": {
+      "imageReference": {
+        "sku": "16.04-LTS",
+        "publisher": "Canonical",
+        "version": "latest",
+        "offer": "UbuntuServer"
+      },
+      "dataDisks": []
+    },
+    "hardwareProfile": {
+      "vmSize": "Standard_D1_v2"
+    },
+    "provisioningState": "Creating"
+  },
+  "name": "test_3",
+  "location": "uksouth"
+}
